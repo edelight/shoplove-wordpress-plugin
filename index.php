@@ -46,7 +46,7 @@ function add_shoplove_widget_script () {
 }
 
 function shoplove_create_menu() {
-	add_menu_page('ShopLove Settings', 'ShopLove Settings', 'administrator', __FILE__, 'shoplove_settings_page' );
+	add_menu_page( 'Einstellungen für ShopLove Widgets', 'ShopLove', 'administrator', __FILE__, 'shoplove_settings_page' );
 	add_action( 'admin_init', 'register_shoplove_settings' );
 }
 
